@@ -4,7 +4,7 @@ import { Shield, FileText, Mail, Building2 } from 'lucide-react';
 export default function App() {
   const [activeTab, setActiveTab] = useState<'privacy' | 'terms'>('privacy');
 
-  const appName = "POS Yangu";
+  const appName = "Venics Sales";
   const companyName = "Venics Software Company";
   const email = "jexesmiten@gmail.com";
   const lastUpdated = "07/03/2026";
