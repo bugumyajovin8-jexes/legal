@@ -7,7 +7,7 @@ export default function App() {
   const appName = "Venics Sales";
   const companyName = "Venics Software Company";
   const email = "jexesmiten@gmail.com";
-  const lastUpdated = "07/03/2026";
+  const lastUpdated = "04/06/2026";
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
