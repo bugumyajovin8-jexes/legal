@@ -64,88 +64,106 @@ export default function App() {
                 <p className="text-slate-500 mb-8">Last updated: {lastUpdated}</p>
 
                 <p className="mb-6 text-slate-700 leading-relaxed">
-                  {appName} (“we”, “our”, or “us”) respects your privacy and is committed to protecting your information. This Privacy Policy explains how we collect, use, and protect information when you use our mobile application.
+                  {appName} (“we”, “our”, or “us”) is built to help businesses manage their sales with confidence. We understand that your business data is sensitive and valuable, and we are committed to protecting it.
                 </p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">1. Information We Collect</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">When using our application, we may collect the following information:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">1. Your Data Ownership</h2>
+                <p className="mb-6 text-slate-700 leading-relaxed">
+                  All business data you enter into {appName} (including products, sales, and transactions) belongs entirely to you. We do not claim ownership of your data.
+                </p>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">2. Information We Collect</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We only collect information necessary to operate the POS system.</p>
                 
-                <h3 className="font-medium text-slate-900 mt-4 mb-2">Account Information</h3>
+                <h3 className="font-medium text-slate-900 mt-4 mb-2">Account Information:</h3>
                 <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
                   <li>Shop name</li>
                   <li>Email address</li>
-                  <li>Password (stored securely)</li>
+                  <li>Password (securely stored and encrypted)</li>
                 </ul>
 
-                <h3 className="font-medium text-slate-900 mt-4 mb-2">Business Data</h3>
+                <h3 className="font-medium text-slate-900 mt-4 mb-2">Business Data:</h3>
                 <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
-                  <li>Products and inventory information</li>
+                  <li>Products and inventory</li>
                   <li>Sales records</li>
                   <li>Profit calculations</li>
                   <li>Transaction history</li>
                 </ul>
 
-                <h3 className="font-medium text-slate-900 mt-4 mb-2">Technical Information</h3>
+                <h3 className="font-medium text-slate-900 mt-4 mb-2">Technical Information:</h3>
                 <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
                   <li>Device type</li>
-                  <li>App usage data (for performance improvement)</li>
+                  <li>App usage data (to improve performance)</li>
                 </ul>
-                
-                <p className="mb-6 text-slate-700 leading-relaxed">We only collect information necessary for the operation of the POS system.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">2. How We Use Your Information</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">We use the collected information to:</p>
-                <ul className="list-disc pl-5 mb-6 text-slate-700 space-y-1">
-                  <li>Create and manage your account</li>
-                  <li>Store and manage your shop inventory</li>
-                  <li>Record and calculate sales and profits</li>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">3. How We Use Your Information</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We use your data strictly to:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>Provide and maintain the POS system</li>
+                  <li>Store and manage your business operations</li>
                   <li>Improve app performance and reliability</li>
                   <li>Provide customer support</li>
                 </ul>
+                <p className="mb-6 text-slate-700 leading-relaxed">We do NOT use your data for advertising or resale.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">3. Data Storage and Security</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">We take reasonable steps to protect your information. This includes:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">4. Data Sharing and Privacy Commitment</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We do NOT sell, rent, or trade your personal or business data to any third party.</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">Your data is only shared in limited situations:</p>
                 <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
-                  <li>Secure storage of user data</li>
-                  <li>Encryption of sensitive information such as passwords</li>
-                  <li>Restricted system access</li>
+                  <li>If required by law</li>
+                  <li>To protect our legal rights</li>
+                  <li>With essential service providers (such as secure cloud hosting), strictly to operate the app</li>
                 </ul>
-                <p className="mb-6 text-slate-700 leading-relaxed">However, no system can guarantee absolute security.</p>
+                <p className="mb-6 text-slate-700 leading-relaxed">We never share your business data for marketing or commercial purposes.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">4. Data Sharing</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">We do not sell, trade, or rent your personal or business data to third parties.</p>
-                <p className="mb-4 text-slate-700 leading-relaxed">Your information may only be shared if:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">5. Who Can Access Your Data</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">Access to your data is strictly limited:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>Only authorized systems process your data</li>
+                  <li>Our team may only access data when necessary for customer support, and only with proper safeguards</li>
+                </ul>
+                <p className="mb-6 text-slate-700 leading-relaxed">We do not casually view or monitor your business data.</p>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">6. Data Security</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We take security seriously and implement:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>Encrypted connections (HTTPS)</li>
+                  <li>Secure password storage</li>
+                  <li>Restricted internal access</li>
+                  <li>Regular system monitoring</li>
+                </ul>
+                <p className="mb-6 text-slate-700 leading-relaxed">While no system is 100% secure, we continuously improve our security to protect your data.</p>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">7. Data Retention and Deletion</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We retain your data only as long as your account is active.</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">You can:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>Request access to your data</li>
+                  <li>Update your information</li>
+                  <li>Request permanent deletion of your account and data at any time</li>
+                </ul>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">8. Your Rights</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">You have full control over your data, including:</p>
                 <ul className="list-disc pl-5 mb-6 text-slate-700 space-y-1">
-                  <li>Required by law</li>
-                  <li>Necessary to protect our legal rights</li>
-                  <li>Needed to operate essential services supporting the app</li>
+                  <li>Accessing your information</li>
+                  <li>Updating your account</li>
+                  <li>Requesting deletion</li>
                 </ul>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">5. Data Retention</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">We keep your data for as long as your account remains active or as needed to provide the service.</p>
-                <p className="mb-6 text-slate-700 leading-relaxed">Users may request deletion of their account and associated data at any time.</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">9. Children's Privacy</h2>
+                <p className="mb-6 text-slate-700 leading-relaxed">{appName} is not intended for children under 13, and we do not knowingly collect their data.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">6. User Rights</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">Users have the right to:</p>
-                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
-                  <li>Access their stored information</li>
-                  <li>Update their account information</li>
-                  <li>Request account deletion</li>
-                </ul>
-                <p className="mb-6 text-slate-700 leading-relaxed">Requests can be made by contacting us.</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">10. Changes to This Policy</h2>
+                <p className="mb-6 text-slate-700 leading-relaxed">We may update this Privacy Policy from time to time. Any updates will be clearly communicated within the app or website.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">7. Children's Privacy</h2>
-                <p className="mb-6 text-slate-700 leading-relaxed">Our application is not intended for children under the age of 13, and we do not knowingly collect personal information from children.</p>
-
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">8. Changes to This Privacy Policy</h2>
-                <p className="mb-6 text-slate-700 leading-relaxed">We may update this Privacy Policy from time to time. Updates will be posted within the application or on our website.</p>
-
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">9. Contact Us</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">If you have any questions about this Privacy Policy, you can contact us at:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">11. Contact Us</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">If you have any questions or concerns, contact us:</p>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
                   <p className="text-slate-700"><strong>Email:</strong> <a href={`mailto:${email}`} className="text-indigo-600 hover:underline">{email}</a></p>
-                  <p className="text-slate-700 mt-2"><strong>Company/Developer:</strong> {companyName}</p>
+                  <p className="text-slate-700 mt-2"><strong>Company:</strong> {companyName}</p>
                 </div>
+                <p className="text-slate-700 leading-relaxed mt-6 font-medium">We are committed to earning and maintaining your trust.</p>
               </div>
             ) : (
               <div className="prose prose-slate max-w-none">
@@ -153,58 +171,78 @@ export default function App() {
                 <p className="text-slate-500 mb-8">Last updated: {lastUpdated}</p>
 
                 <p className="mb-6 text-slate-700 leading-relaxed">
-                  By downloading or using {appName}, you agree to these Terms of Service.
+                  By accessing or using {appName} (“the Service”), you agree to be bound by these Terms of Service.
                 </p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">1. Use of the Service</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">
-                  {appName} provides a point-of-sale system that helps businesses manage products, sales, and profit records.
-                </p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">1. Description of Service</h2>
                 <p className="mb-6 text-slate-700 leading-relaxed">
-                  Users agree to use the application only for lawful business purposes.
+                  {appName} provides a point-of-sale (POS) system that helps businesses manage products, sales, and financial records.
                 </p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">2. User Accounts</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">To use certain features, users may need to create an account.</p>
-                <p className="mb-4 text-slate-700 leading-relaxed">Users are responsible for:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">2. Use of the Service</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">You agree to use the Service only for lawful business purposes.</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">You must not:</p>
                 <ul className="list-disc pl-5 mb-6 text-slate-700 space-y-1">
-                  <li>Maintaining the confidentiality of their login credentials</li>
-                  <li>All activities that occur under their account</li>
+                  <li>Use the system for fraudulent or illegal activities</li>
+                  <li>Attempt to disrupt or damage the system</li>
+                  <li>Reverse engineer or attempt to access restricted parts of the Service</li>
                 </ul>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">3. Business Data Responsibility</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">Users are responsible for the accuracy of:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">3. User Accounts</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">You are responsible for:</p>
                 <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
-                  <li>Sales records</li>
-                  <li>Inventory data</li>
-                  <li>Financial calculations entered into the system</li>
+                  <li>Keeping your login credentials secure</li>
+                  <li>All activities under your account</li>
                 </ul>
-                <p className="mb-6 text-slate-700 leading-relaxed">We are not responsible for business decisions made based on the information stored in the application.</p>
+                <p className="mb-6 text-slate-700 leading-relaxed">We are not responsible for unauthorized access caused by your failure to protect your account.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">4. Service Availability</h2>
-                <p className="mb-6 text-slate-700 leading-relaxed">We strive to keep the service running smoothly. However, we do not guarantee uninterrupted access and may occasionally perform maintenance or updates.</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">4. Your Business Data</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">You are responsible for:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>The accuracy of your data</li>
+                  <li>Maintaining your own backups where necessary</li>
+                </ul>
+                <p className="mb-6 text-slate-700 leading-relaxed">While we take steps to protect your data, we recommend users keep independent records of critical business information.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">5. Limitation of Liability</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">The application is provided “as is.”</p>
-                <p className="mb-4 text-slate-700 leading-relaxed">We are not liable for:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">5. Service Availability</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We aim to provide reliable service, but we do not guarantee uninterrupted or error-free operation.</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">The Service may be temporarily unavailable due to:</p>
                 <ul className="list-disc pl-5 mb-6 text-slate-700 space-y-1">
-                  <li>Loss of business data</li>
-                  <li>Financial losses</li>
-                  <li>System interruptions</li>
-                  <li>Errors caused by incorrect data entry</li>
+                  <li>Maintenance</li>
+                  <li>Updates</li>
+                  <li>Technical issues</li>
                 </ul>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">6. Termination</h2>
-                <p className="mb-6 text-slate-700 leading-relaxed">We reserve the right to suspend or terminate accounts that violate these Terms or misuse the application.</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">6. Limitation of Liability</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">The Service is provided “as is” and “as available.”</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">To the maximum extent permitted by law, {appName} is not liable for:</p>
+                <ul className="list-disc pl-5 mb-6 text-slate-700 space-y-1">
+                  <li>Loss of data</li>
+                  <li>Loss of profits or revenue</li>
+                  <li>Business interruption</li>
+                  <li>Indirect or consequential damages</li>
+                </ul>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">7. Updates to the Service</h2>
-                <p className="mb-6 text-slate-700 leading-relaxed">We may update or modify the application and these Terms at any time. Continued use of the app indicates acceptance of the updated terms.</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">7. Termination</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We may suspend or terminate your account if you:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>Violate these Terms</li>
+                  <li>Misuse the Service</li>
+                </ul>
+                <p className="mb-6 text-slate-700 leading-relaxed">You may stop using the Service at any time.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">8. Contact Information</h2>
-                <p className="mb-4 text-slate-700 leading-relaxed">For questions about these Terms, contact:</p>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">8. Updates to the Service and Terms</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">We may update or modify the Service and these Terms at any time.</p>
+                <p className="mb-6 text-slate-700 leading-relaxed">Continued use of the Service after changes means you accept the updated Terms.</p>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">9. Governing Law</h2>
+                <p className="mb-6 text-slate-700 leading-relaxed">These Terms are governed by the laws of the United Republic of Tanzania.</p>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">10. Contact Information</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">If you have any questions about these Terms, contact:</p>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
                   <p className="text-slate-700"><strong>Email:</strong> <a href={`mailto:${email}`} className="text-indigo-600 hover:underline">{email}</a></p>
-                  <p className="text-slate-700 mt-2"><strong>Developer:</strong> {companyName}</p>
+                  <p className="text-slate-700 mt-2"><strong>Company:</strong> {companyName}</p>
                 </div>
               </div>
             )}
