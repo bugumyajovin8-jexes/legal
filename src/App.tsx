@@ -157,7 +157,18 @@ export default function App() {
                 <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">10. Changes to This Policy</h2>
                 <p className="mb-6 text-slate-700 leading-relaxed">We may update this Privacy Policy from time to time. Any updates will be clearly communicated within the app or website.</p>
 
-                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">11. Contact Us</h2>
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">11. Pricing and Payments</h2>
+                <p className="mb-4 text-slate-700 leading-relaxed">{appName} is offered as a subscription service at a fee of TZS 20,000 per month.</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">By subscribing, you agree to:</p>
+                <ul className="list-disc pl-5 mb-4 text-slate-700 space-y-1">
+                  <li>Pay the applicable subscription fees</li>
+                  <li>Keep your payment information up to date</li>
+                </ul>
+                <p className="mb-4 text-slate-700 leading-relaxed">Payments are non-refundable except where required by law.</p>
+                <p className="mb-4 text-slate-700 leading-relaxed">We reserve the right to update pricing. Any changes will be communicated in advance.</p>
+                <p className="mb-6 text-slate-700 leading-relaxed">Failure to make payment may result in suspension or termination of access to the Service.</p>
+
+                <h2 className="text-xl font-semibold text-slate-900 mt-8 mb-4">12. Contact Us</h2>
                 <p className="mb-4 text-slate-700 leading-relaxed">If you have any questions or concerns, contact us:</p>
                 <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
                   <p className="text-slate-700"><strong>Email:</strong> <a href={`mailto:${email}`} className="text-indigo-600 hover:underline">{email}</a></p>
